@@ -2,7 +2,7 @@
 
 
 ## Note
-* This is an mobile web application (demo) which provide the feature of valuating the automobile through the vehicle image.
+* This is a mobile web application (demo) with the feature of valuating automobiles' price through images.
 
 ## How to Test It
 * Scan the QR code below (scan with wechat is recommended)
@@ -14,7 +14,7 @@
 https://hanmbink.github.io/auto-appraisal-app/
 
 ## Testing Environment
-* Wechat in-build browser --> Tested
+* Wechat build-in browser --> Tested
 * Safari of iOS --> Tested
 * Safari of Mac OS  --> Tested
 * Chrome of Mac OS  --> Tested
