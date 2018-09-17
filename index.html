@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="theme-color" content="#ee8100">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Auto Appraisal App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<div class="ant-card ant-card-bordered">
+		<div class="ant-card-body">
+			<p class="text">Take a front photo</p>
+			<p class="text">Get the market value!</p>
+			<input id="imgInput" type="file" accept="image/*" style="opacity: 0;" onchange="loadFile(event)">
+			<button type="button" class="ant-btn form-button ant-btn-primary" onclick="document.querySelector('#imgInput').click()">
+			<span>Start</span>
+			</button>
+			<img id="imgOutput">
+		</div>
+	</div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

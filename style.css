@@ -1,0 +1,470 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#imgOutput {
+    width: 100%;
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+    margin-top: 20px;
+    background-color: gray;
+    text-align: center;
+}
+
+.text {
+    width: 100%;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  margin: 0;
+  font-family: "Monospaced Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #fff;
+}
+
+::selection {
+  background: #ff3f55;
+  color: #fff;
+}
+
+.ant-card {
+  margin: 0.5em 0 0.5em;
+}
+.ant-card:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.ant-card-body {
+  padding: 8px;
+}
+
+.ant-card-bordered {
+  border: 1px solid #e8e8e8;
+}
+
+.ant-card {
+  font-family: "Monospaced Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.65);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #fff;
+  border-radius: 2px;
+  position: relative;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.v-center {
+  text-align: center;
+  margin: 0.5em auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: .5em;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+}
+
+.ant-card-body {
+  padding: 24px;
+  zoom: 1;
+}
+.ant-card-body:before,
+.ant-card-body:after {
+  content: " ";
+  display: table;
+}
+.ant-card-body:after {
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+}
+.ant-card-body:before,
+.ant-card-body:after {
+  content: " ";
+  display: table;
+}
+.ant-card-body:after {
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+}
+
+.car-valuation-private {
+  background-color: #ff3f55;
+  padding: 1em 0;
+}
+.car-valuation-private .car-valuation-title,
+.car-valuation-private .car-valuation-price-average {
+  color: white;
+}
+.car-valuation-dealer {
+  margin-top: 1em;
+}
+.car-valuation-dealer .car-valuation-title,
+.car-valuation-dealer .car-valuation-price-average {
+  color: #ff3f55;
+}
+.car-valuation-title {
+  text-align: center;
+}
+.car-valuation-bar {
+  border-top: 2px solid #ccc;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  position: relative;
+  top: 0.5em;
+}
+.car-valuation-description {
+  font-size: 0.7em;
+  text-align: center;
+}
+.car-valuation-price {
+  text-align: center;
+  font-size: 1rem;
+}
+.car-valuation-price-average {
+  text-align: center;
+  font-size: 1.4rem;
+}
+.car-valuations-table {
+  width: 100%;
+}
+.car-valuations-table td:last-of-type {
+  text-align: right;
+}
+.car-valuation-preview p {
+  text-align: center;
+  margin: 1em 0;
+}
+.car-valuation-preview img {
+  width: 80%;
+  margin: 0 auto;
+  -webkit-box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.ant-row {
+  position: relative;
+  margin-left: 0;
+  margin-right: 0;
+  height: auto;
+  zoom: 1;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.ant-row:before,
+.ant-row:after {
+  content: " ";
+  display: table;
+}
+.ant-row:after {
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+}
+.ant-row:before,
+.ant-row:after {
+  content: " ";
+  display: table;
+}
+.ant-row:after {
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+}
+.ant-row-flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+}
+.ant-row-flex:before,
+.ant-row-flex:after {
+  display: -ms-flexbox;
+  display: flex;
+}
+.ant-row-flex-start {
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+}
+.ant-row-flex-center {
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+.ant-row-flex-end {
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+}
+.ant-row-flex-space-between {
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.ant-row-flex-space-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.ant-row-flex-top {
+  -ms-flex-align: start;
+      align-items: flex-start;
+}
+.ant-row-flex-middle {
+  -ms-flex-align: center;
+      align-items: center;
+}
+.ant-row-flex-bottom {
+  -ms-flex-align: end;
+      align-items: flex-end;
+}
+
+.ant-col-1, .ant-col-2, .ant-col-3, .ant-col-4, .ant-col-5, .ant-col-6, .ant-col-7, .ant-col-8, .ant-col-9, .ant-col-10, .ant-col-11, .ant-col-12, .ant-col-13, .ant-col-14, .ant-col-15, .ant-col-16, .ant-col-17, .ant-col-18, .ant-col-19, .ant-col-20, .ant-col-21, .ant-col-22, .ant-col-23, .ant-col-24 {
+  float: left;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+}
+
+.ant-col-1, .ant-col-xs-1, .ant-col-sm-1, .ant-col-md-1, .ant-col-lg-1, .ant-col-2, .ant-col-xs-2, .ant-col-sm-2, .ant-col-md-2, .ant-col-lg-2, .ant-col-3, .ant-col-xs-3, .ant-col-sm-3, .ant-col-md-3, .ant-col-lg-3, .ant-col-4, .ant-col-xs-4, .ant-col-sm-4, .ant-col-md-4, .ant-col-lg-4, .ant-col-5, .ant-col-xs-5, .ant-col-sm-5, .ant-col-md-5, .ant-col-lg-5, .ant-col-6, .ant-col-xs-6, .ant-col-sm-6, .ant-col-md-6, .ant-col-lg-6, .ant-col-7, .ant-col-xs-7, .ant-col-sm-7, .ant-col-md-7, .ant-col-lg-7, .ant-col-8, .ant-col-xs-8, .ant-col-sm-8, .ant-col-md-8, .ant-col-lg-8, .ant-col-9, .ant-col-xs-9, .ant-col-sm-9, .ant-col-md-9, .ant-col-lg-9, .ant-col-10, .ant-col-xs-10, .ant-col-sm-10, .ant-col-md-10, .ant-col-lg-10, .ant-col-11, .ant-col-xs-11, .ant-col-sm-11, .ant-col-md-11, .ant-col-lg-11, .ant-col-12, .ant-col-xs-12, .ant-col-sm-12, .ant-col-md-12, .ant-col-lg-12, .ant-col-13, .ant-col-xs-13, .ant-col-sm-13, .ant-col-md-13, .ant-col-lg-13, .ant-col-14, .ant-col-xs-14, .ant-col-sm-14, .ant-col-md-14, .ant-col-lg-14, .ant-col-15, .ant-col-xs-15, .ant-col-sm-15, .ant-col-md-15, .ant-col-lg-15, .ant-col-16, .ant-col-xs-16, .ant-col-sm-16, .ant-col-md-16, .ant-col-lg-16, .ant-col-17, .ant-col-xs-17, .ant-col-sm-17, .ant-col-md-17, .ant-col-lg-17, .ant-col-18, .ant-col-xs-18, .ant-col-sm-18, .ant-col-md-18, .ant-col-lg-18, .ant-col-19, .ant-col-xs-19, .ant-col-sm-19, .ant-col-md-19, .ant-col-lg-19, .ant-col-20, .ant-col-xs-20, .ant-col-sm-20, .ant-col-md-20, .ant-col-lg-20, .ant-col-21, .ant-col-xs-21, .ant-col-sm-21, .ant-col-md-21, .ant-col-lg-21, .ant-col-22, .ant-col-xs-22, .ant-col-sm-22, .ant-col-md-22, .ant-col-lg-22, .ant-col-23, .ant-col-xs-23, .ant-col-sm-23, .ant-col-md-23, .ant-col-lg-23, .ant-col-24, .ant-col-xs-24, .ant-col-sm-24, .ant-col-md-24, .ant-col-lg-24 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.ant-col-5 {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 20.83333333%;
+}
+
+.ant-col-4 {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 16.66666667%;
+}
+
+.ant-col-12 {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 50%;
+}
+
+.ant-col-16 {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 66.66666667%;
+}
+
+a,
+area,
+button,
+[role="button"],
+input:not([type=range]),
+label,
+select,
+summary,
+textarea {
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+.ant-btn,
+.ant-btn:active,
+.ant-btn:focus {
+  outline: 0;
+}
+
+.ant-btn {
+  line-height: 1.5;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 0 15px;
+  font-size: 14px;
+  border-radius: 50px;
+  height: 44px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  position: relative;
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #fff;
+  border-color: #d9d9d9;
+}
+
+.anticon {
+  display: inline-block;
+  font-style: normal;
+  vertical-align: baseline;
+  text-align: center;
+  text-transform: none;
+  line-height: 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ant-btn .anticon {
+  -webkit-transition: margin-left 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: margin-left 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: margin-left 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.ant-btn > .anticon {
+  line-height: 1;
+}
+
+.ant-btn > i,
+.ant-btn > span {
+  pointer-events: none;
+}
+
+.ant-btn.disabled > *,
+.ant-btn[disabled] > * {
+  pointer-events: none;
+}
+
+.ant-btn.disabled,
+.ant-btn[disabled],
+.ant-btn.disabled:hover,
+.ant-btn[disabled]:hover,
+.ant-btn.disabled:focus,
+.ant-btn[disabled]:focus,
+.ant-btn.disabled:active,
+.ant-btn[disabled]:active,
+.ant-btn.disabled.active,
+.ant-btn[disabled].active {
+  color: rgba(0, 0, 0, 0.25);
+  background-color: #f5f5f5;
+  border-color: #d9d9d9;
+}
+
+.ant-btn.disabled,
+.ant-btn[disabled] {
+  cursor: not-allowed;
+}
+
+.ant-btn-circle,
+.ant-btn-circle-outline {
+  width: 44px;
+  padding: 0;
+  font-size: 16px;
+  border-radius: 50%;
+  height: 44px;
+}
+
+.anticon-like:before {
+  content: "\e64c";
+}
+.anticon-like-o:before {
+  content: "\e69d";
+}
+.anticon-dislike:before {
+  content: "\e64b";
+}
+.anticon-dislike-o:before {
+  content: "\e69e";
+}
+
+.anticon:before {
+  display: block;
+  font-family: "anticon" !important;
+}
+
+::selection {
+  background: #ff3f55;
+  color: #fff;
+}
+
+.form-button {
+  width: 100%;
+}
+
+.ant-btn-primary {
+  color: #fff;
+  background-color: #ff3f55;
+  border-color: #ff3f55;
+}
