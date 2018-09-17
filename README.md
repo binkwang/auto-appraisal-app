@@ -22,7 +22,7 @@ https://hanmbink.github.io/auto-appraisal-app/
 * Browsers on PC  --> Not Tested
 
 ## Demo Pages
-<img src="https://github.com/hanmbink/auto-appraisal-app/raw/master/read-me-sources/page-1-1.png" width="45%" />
-<img src="https://github.com/hanmbink/auto-appraisal-app/raw/master/read-me-sources/page-1-2.png" width="45%" />
-<img src="https://github.com/hanmbink/auto-appraisal-app/raw/master/read-me-sources/page-2.png" width="45%" />
-<img src="https://github.com/hanmbink/auto-appraisal-app/raw/master/read-me-sources/page-3.png" width="45%" />
+<img src="https://github.com/hanmbink/auto-appraisal-app/raw/master/read-me-sources/page-1-1.png" width="40%" />
+<img src="https://github.com/hanmbink/auto-appraisal-app/raw/master/read-me-sources/page-1-2.png" width="40%" />
+<img src="https://github.com/hanmbink/auto-appraisal-app/raw/master/read-me-sources/page-2.png" width="40%" />
+<img src="https://github.com/hanmbink/auto-appraisal-app/raw/master/read-me-sources/page-3.png" width="40%" />
